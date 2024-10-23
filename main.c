@@ -3,7 +3,7 @@
 
 int sum(int a, int b) {
     // TODO: Implement the sum function
-    return 0;
+    return a+ b;
 }
 
 int main() {
@@ -11,5 +11,5 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
     printf("Sum: %d\n", sum(a, b));
-    return a + b;
+    return 0;
 }
